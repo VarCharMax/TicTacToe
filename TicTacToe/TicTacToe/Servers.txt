@@ -1,0 +1,14 @@
+﻿
+Dev
+Server=(localdb)\\MSSQLLocalDB;Database=TicTacToe;Trusted_Connection=true;MultipleActiveResultSets=true
+
+AWS
+"Server=aa1sw3crfzdnk9i.c1gihculypuu.ap-southeast-2.rds.amazonaws.com;Database=TicTacToe;MultipleActiveResultSets=true;User Id=tictactoe;pwd=tictactoe"
+
+Azure
+"Server=tcp:tictacto.database.windows.net,1433;Initial Catalog=TicTacToe;Persist Security Info=False;User ID=tictactoe;Password=1TicTacTo;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
+Docker
+"Server=sql;Database=Master;MultipleActiveResultSets=true;User id=sa;pwd=123TicTacToe!;"
+
+docker inspect -f "{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}" dockercompose15180037041506456541_sql_1

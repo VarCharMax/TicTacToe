@@ -1,0 +1,8 @@
+﻿<rewrite>
+  <rules>
+    <rule name="Rewrite segment" stopProcessing="true">
+      <match url="^NewUser$" />
+      <action type="Rewrite" url="/UserRegistration/Index" appendQueryString="false"/>
+    </rule>
+  </rules>
+</rewrite>
