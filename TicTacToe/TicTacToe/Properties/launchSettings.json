@@ -22,15 +22,16 @@
     "TicTacToe": {
       "commandName": "Project",
       "launchBrowser": true,
+      "applicationUrl": "http://localhost:53169/",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      },
-      "applicationUrl": "http://localhost:53169/"
+      }
     },
     "Docker": {
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "environmentVariables": {},
       "publishAllPorts": true,
       "useSSL": true
     }

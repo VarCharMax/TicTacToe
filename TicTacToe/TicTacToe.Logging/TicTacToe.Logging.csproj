@@ -9,4 +9,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="3.1.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="..\.editorconfig" />
+  </ItemGroup>
 </Project>
